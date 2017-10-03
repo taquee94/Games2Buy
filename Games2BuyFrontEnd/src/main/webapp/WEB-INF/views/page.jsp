@@ -56,12 +56,16 @@
 			</c:if>
 
 			<c:if test="${userClickContact==true}">
-				<%@include file="./Contact Us.jsp"%>
+				<%@include file="./Contact Us.jsp"%> 
+			</c:if>
+
+			<c:if test="${userClickAllGames==true or userClickCategoryGames==true}">
+				<%@include file="./listgames.jsp"%>
 			</c:if>
 
 		</div>
-		
-		
+
+
 		<%@include file="./footer.jsp"%>
 
 		<!-- jQuery -->

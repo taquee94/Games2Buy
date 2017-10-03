@@ -10,6 +10,7 @@
    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 	<context:component-scan base-package="org.G2B.Games2BuyFrontEnd.Controller" />
+	<context:component-scan base-package="org.G2B.Games2BuyEnd.DAOIMPL" />
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

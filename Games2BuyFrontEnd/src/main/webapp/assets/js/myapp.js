@@ -9,8 +9,13 @@ $(function() {
 		$('#contactus').addClass('active');
 		break;
 
+	case 'All Games':
+		$('#store').addClass('active');
+		break;
+
 	default:
-		$('#home').addClass('active');
+		$('#store').addClass('active');
+		$('#a_' + menu).addClass('active');
 		break;
 
 	}
